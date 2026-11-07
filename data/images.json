@@ -1,0 +1,50 @@
+{
+  "bakery": {
+    "width": 1200,
+    "height": 798
+  },
+  "cafe": {
+    "width": 1200,
+    "height": 800
+  },
+  "clean": {
+    "width": 1200,
+    "height": 800
+  },
+  "coffee": {
+    "width": 1200,
+    "height": 1800
+  },
+  "florist": {
+    "width": 1200,
+    "height": 1800
+  },
+  "flowers": {
+    "width": 1200,
+    "height": 800
+  },
+  "interior": {
+    "width": 1200,
+    "height": 900
+  },
+  "nature": {
+    "width": 1200,
+    "height": 800
+  },
+  "room": {
+    "width": 1200,
+    "height": 800
+  },
+  "roses": {
+    "width": 1200,
+    "height": 1500
+  },
+  "service": {
+    "width": 1200,
+    "height": 800
+  },
+  "stay": {
+    "width": 1200,
+    "height": 800
+  }
+}
