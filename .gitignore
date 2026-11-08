@@ -8,3 +8,6 @@ out/
 
 .npm-cache/
 package-lock.previous.json
+
+test-results/
+playwright-report/

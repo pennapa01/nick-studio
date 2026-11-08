@@ -5073,3 +5073,123 @@ button:disabled {
     transition: none !important;
   }
 }
+
+/* Preview typography follows its card width, including the standalone detail preview. */
+.mini-frame {
+  container-type: inline-size;
+  width: 100%;
+  min-width: 0;
+}
+.mini-frame .mini {
+  width: 100%;
+  aspect-ratio: 1.5;
+}
+.mini-frame .mini-nav {
+  font-size: 1.65cqw;
+  padding: 4% 6%;
+  align-items: center;
+  gap: 2cqw;
+  line-height: 1.5;
+}
+.mini-frame .mini-nav b {
+  letter-spacing: 0.2cqw;
+}
+.mini-frame .mini-body {
+  position: absolute;
+  top: 16%;
+  bottom: 13%;
+  width: 56%;
+  padding: 5% 6%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.mini-frame .mini-body small {
+  font-size: 1.35cqw;
+  letter-spacing: 0.25cqw;
+  line-height: 1.5;
+}
+.mini-frame .mini-body h3 {
+  font-size: 5.6cqw;
+  line-height: 1.15;
+  margin: 2cqw 0;
+  letter-spacing: -0.1cqw;
+}
+.mini-frame .mini-body p {
+  font-size: 1.7cqw;
+  line-height: 1.6;
+  max-width: none;
+  margin: 0;
+}
+.mini-frame .mini-cta {
+  font-size: 1.55cqw;
+  padding: 1.5cqw 0 0.5cqw;
+  line-height: 1.5;
+}
+.mini-frame .mini-bottom {
+  height: 12%;
+  font-size: 1.5cqw;
+  line-height: 1.5;
+  gap: 1cqw;
+  padding: 0 3%;
+}
+.mini-frame .scene {
+  left: auto;
+}
+.mini-frame .dash-mini-side {
+  flex-shrink: 0;
+  font-size: 3.5cqw;
+  letter-spacing: -0.1cqw;
+}
+.mini-frame .dash-mini-side > span {
+  margin-top: 7cqw;
+  font-size: 1.5cqw;
+}
+.mini-frame .dash-mini-main {
+  padding: 4% 5%;
+}
+.mini-frame .dash-mini-main > small {
+  font-size: 1.2cqw;
+  letter-spacing: 0.25cqw;
+}
+.mini-frame .dash-mini-main h3 {
+  font-size: 3.8cqw;
+  letter-spacing: -0.1cqw;
+  margin: 1cqw 0 3cqw;
+  line-height: 1.5;
+}
+.mini-frame .dash-mini-kpis {
+  gap: 2cqw;
+}
+.mini-frame .dash-mini-kpis > b {
+  min-width: 0;
+  font-size: 5cqw;
+  padding: 2cqw;
+  border-radius: 0.7cqw;
+}
+.mini-frame .dash-mini-kpis small {
+  font-size: 1.1cqw;
+  letter-spacing: 0.08cqw;
+}
+.mini-frame .dash-mini-graph {
+  padding: 2cqw;
+  margin-top: 2cqw;
+  font-size: 1.6cqw;
+  border-radius: 0.7cqw;
+}
+.mini-frame .dash-mini-graph > div {
+  height: 13cqw;
+  gap: 1cqw;
+  padding-top: 2cqw;
+}
+.mini-frame .dash-mini-foot {
+  font-size: 1.3cqw;
+  line-height: 1.8;
+  margin-top: 2cqw;
+  padding: 1cqw 2cqw;
+}
+.mini-frame .dash-mini-main {
+  font-size: 1.6cqw;
+  line-height: 1.5;
+}
